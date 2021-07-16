@@ -1,5 +1,5 @@
-import { CREATE_USER } from "./Mutations/User";
 import { GraphQLObjectType, GraphQLSchema } from "graphql";
+import { CREATE_USER } from "./Mutations/User";
 import { GET_ALL_USERS } from "./Queries/User";
 
 const RootQuery = new GraphQLObjectType({
